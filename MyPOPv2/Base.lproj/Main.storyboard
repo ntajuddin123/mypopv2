@@ -32,7 +32,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="576-0V-OaK" kind="show" id="5np-SM-Apq"/>
+                                    <segue destination="ILb-DI-y1q" kind="show" id="5np-SM-Apq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="565" y="490"/>
         </scene>
-        <!--View Controller-->
+        <!--StartSurvey-->
         <scene sceneID="8R5-3u-dMP">
             <objects>
-                <viewController id="576-0V-OaK" sceneMemberID="viewController">
+                <viewController title="StartSurvey" id="576-0V-OaK" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hiX-LQ-UiK"/>
                         <viewControllerLayoutGuide type="bottom" id="7LA-Rx-r6F"/>
@@ -60,11 +60,131 @@
                     <view key="view" contentMode="scaleToFill" id="9KT-tB-1ii">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFG-OR-xhm">
+                                <rect key="frame" x="163" y="246" width="275" height="107"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="Yuo-pr-BJA"/>
+                                </constraints>
+                                <state key="normal" title="START SURVEY"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zFG-OR-xhm" firstAttribute="centerX" secondItem="9KT-tB-1ii" secondAttribute="centerX" id="Vyu-45-b89"/>
+                            <constraint firstItem="zFG-OR-xhm" firstAttribute="centerY" secondItem="9KT-tB-1ii" secondAttribute="centerY" id="cgo-ZI-B0N"/>
+                            <constraint firstItem="zFG-OR-xhm" firstAttribute="top" secondItem="hiX-LQ-UiK" secondAttribute="bottom" constant="182" id="e3O-UB-wtA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cU8-WV-igd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1N-I3-F5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="490"/>
+        </scene>
+        <!--YesNo-->
+        <scene sceneID="Lca-NZ-y9K">
+            <objects>
+                <viewController title="YesNo" id="1CO-2H-28l" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iYU-ET-7f6"/>
+                        <viewControllerLayoutGuide type="bottom" id="p2q-lS-kWx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kEe-wy-TB9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yes / No Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24g-9g-Ufs">
+                                <rect key="frame" x="20" y="20" width="560" height="100"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laY-H4-w9k">
+                                <rect key="frame" x="410" y="269" width="170" height="134"/>
+                                <animations/>
+                                <state key="normal" title="NO"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aw4-NH-k4w">
+                                <rect key="frame" x="20" y="269" width="170" height="134"/>
+                                <animations/>
+                                <state key="normal" title="YES"/>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w1N-I3-F5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MyA-rR-iAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2841" y="49"/>
+        </scene>
+        <!--Slider-->
+        <scene sceneID="2Ds-ws-LcS">
+            <objects>
+                <viewController title="Slider" id="JG3-4f-T6D" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Phi-y7-zhd"/>
+                        <viewControllerLayoutGuide type="bottom" id="TFr-1F-YaE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3CT-vJ-cBc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Slider Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcR-le-KrR">
+                                <rect key="frame" x="20" y="28" width="560" height="100"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fN-tp-Nbx">
+                                <rect key="frame" x="20" y="229" width="71" height="117"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HIGH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5z-x0-H6S">
+                                <rect key="frame" x="509" y="229" width="71" height="117"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="M7m-pX-Mcc">
+                                <rect key="frame" x="97" y="273" width="406" height="31"/>
+                                <animations/>
+                            </slider>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bvn-wf-iF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2841" y="702"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fmB-RS-oUg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ILb-DI-y1q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fjH-Gy-iFR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="576-0V-OaK" kind="relationship" relationship="rootViewController" id="jGE-bG-IXf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="66L-Uf-JFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1256" y="490"/>
         </scene>
