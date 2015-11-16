@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49125DB01BF7D99C007C9145 /* StartSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49125DB31BF7E685007C9145 /* YesNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB21BF7E685007C9145 /* YesNoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49125DB61BF7ECA9007C9145 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB51BF7ECA9007C9145 /* SliderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49125DBA1BF93DA3007C9145 /* BaseQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		DD5902F01BE7C3C900718FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902EF1BE7C3C900718FD3 /* main.m */; };
 		DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902F21BE7C3C900718FD3 /* AppDelegate.m */; };
 		DD5902F61BE7C3C900718FD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902F51BE7C3C900718FD3 /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49125DAE1BF7D99C007C9145 /* StartSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartSurveyViewController.h; path = mypopv2/StartSurveyViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartSurveyViewController.m; path = mypopv2/StartSurveyViewController.m; sourceTree = SOURCE_ROOT; };
+		49125DB11BF7E685007C9145 /* YesNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YesNoViewController.h; path = mypopv2/YesNoViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DB21BF7E685007C9145 /* YesNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YesNoViewController.m; path = mypopv2/YesNoViewController.m; sourceTree = SOURCE_ROOT; };
+		49125DB41BF7ECA9007C9145 /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SliderViewController.h; path = mypopv2/SliderViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DB51BF7ECA9007C9145 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SliderViewController.m; path = mypopv2/SliderViewController.m; sourceTree = SOURCE_ROOT; };
+		49125DB81BF93DA3007C9145 /* BaseQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseQuestionViewController.h; path = mypopv2/BaseQuestionViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseQuestionViewController.m; path = mypopv2/BaseQuestionViewController.m; sourceTree = SOURCE_ROOT; };
 		DD5902EB1BE7C3C900718FD3 /* MyPOPv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPOPv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5902EF1BE7C3C900718FD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD5902F11BE7C3C900718FD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49125DB71BF93D48007C9145 /* SurveyVCs */ = {
+			isa = PBXGroup;
+			children = (
+				49125DB81BF93DA3007C9145 /* BaseQuestionViewController.h */,
+				49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */,
+				49125DB11BF7E685007C9145 /* YesNoViewController.h */,
+				49125DB21BF7E685007C9145 /* YesNoViewController.m */,
+				49125DB41BF7ECA9007C9145 /* SliderViewController.h */,
+				49125DB51BF7ECA9007C9145 /* SliderViewController.m */,
+			);
+			name = SurveyVCs;
+			sourceTree = "<group>";
+		};
 		DD5902E21BE7C3C900718FD3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +126,7 @@
 		DD5902ED1BE7C3C900718FD3 /* MyPOPv2 */ = {
 			isa = PBXGroup;
 			children = (
+				49125DB71BF93D48007C9145 /* SurveyVCs */,
 				DD5902F11BE7C3C900718FD3 /* AppDelegate.h */,
 				DD5902F21BE7C3C900718FD3 /* AppDelegate.m */,
 				DD5902F41BE7C3C900718FD3 /* ViewController.h */,
@@ -110,6 +136,8 @@
 				DD5902FC1BE7C3C900718FD3 /* LaunchScreen.storyboard */,
 				DD5902FF1BE7C3C900718FD3 /* Info.plist */,
 				DD5902EE1BE7C3C900718FD3 /* Supporting Files */,
+				49125DAE1BF7D99C007C9145 /* StartSurveyViewController.h */,
+				49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */,
 			);
 			path = MyPOPv2;
 			sourceTree = "<group>";
@@ -271,6 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD5902F61BE7C3C900718FD3 /* ViewController.m in Sources */,
+				49125DB61BF7ECA9007C9145 /* SliderViewController.m in Sources */,
+				49125DB01BF7D99C007C9145 /* StartSurveyViewController.m in Sources */,
+				49125DBA1BF93DA3007C9145 /* BaseQuestionViewController.m in Sources */,
+				49125DB31BF7E685007C9145 /* YesNoViewController.m in Sources */,
 				DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */,
 				DD5902F01BE7C3C900718FD3 /* main.m in Sources */,
 			);
@@ -498,6 +530,7 @@
 				DD59031A1BE7C3C900718FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD59031B1BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +539,7 @@
 				DD59031D1BE7C3C900718FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD59031E1BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +548,7 @@
 				DD5903201BE7C3C900718FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
