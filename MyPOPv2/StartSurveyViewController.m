@@ -26,7 +26,24 @@
 - (NSArray *)contentPageRestorationIDs
 {
     if (!_contentPageRestorationIDs) {
-        _contentPageRestorationIDs = @[@"YesNoVC", @"YesNoVC", @"SliderVC", @"SliderVC", @"YesNoVC"];
+        _contentPageRestorationIDs = @[@"YesNoVC",
+                                       @"YesNoVC",
+                                       @"SliderVC",
+                                       @"SliderVC", // selection
+                                       @"YesNoVC",  // body diagram
+                                       @"SliderVC",
+                                       @"YesNoVC", // selection
+                                       @"YesNoVC",
+                                       @"YesNoVC",
+                                       @"YesNoVC",
+                                       @"YesNoVC",
+                                       @"YesNoVC",
+                                       @"YesNoVC",
+                                       @"YesNoVC",
+                                       @"YesNoVC", // selection
+                                       @"YesNoVC", // selection
+                                       @"YesNoVC", // selection
+                                       @"SliderVC"];
     }
     
     return _contentPageRestorationIDs;
@@ -35,7 +52,24 @@
 - (NSArray *)questions
 {
     if (!_questions) {
-        _questions = @[@"Question 1", @"Question 2", @"Question 3", @"Question 4", @"Question 5"];
+        _questions = @[@"Have you had pain related to surgery?",
+                       @"Do you have pain right now?",
+                       @"Show your WORST pain since your last entry",
+                       @"When you had your WORST pain, how long did it last?",
+                       @"Does your pain BUG or ANNOY you right now?",
+                       @"Touch the words that best describe your pain",
+                       @"Does your pain make you feel MAD/ANGRY?",
+                       @"Does your pain make you feel SAD?",
+                       @"Does your pain make you feel WORRIED?",
+                       @"Does pain affect your SLEEP?",
+                       @"Does pain get in the way of you DOING THINGS?",
+                       @"Does pain affect being able to move around (e.g. walking, getting out of bed)?",
+                       @"Does pain affect your eating or drinking?",
+                       @"Does you experience any other symptoms related to your pain?",
+                       @"Have you taken any pain medicine?",
+                       @"Did your pain medicines cause any side effects?",
+                       @"What other strategies did you use to try and reduce your pain?",
+                       @"Show how much you were able to MANAGE your pain"];
     }
     
     return _questions;
