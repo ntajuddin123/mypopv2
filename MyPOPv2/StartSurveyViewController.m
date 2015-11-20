@@ -31,7 +31,7 @@
                                        @"SliderVC",
                                        @"SliderVC", // selection
                                        @"YesNoVC",  // body diagram
-                                       @"SliderVC",
+                                       @"SelectMultipleVC",
                                        @"YesNoVC", // selection
                                        @"YesNoVC",
                                        @"YesNoVC",
@@ -40,7 +40,7 @@
                                        @"YesNoVC",
                                        @"YesNoVC",
                                        @"YesNoVC",
-                                       @"YesNoVC", // selection
+                                       @"SelectMultipleWithSliderVC", // selection
                                        @"YesNoVC", // selection
                                        @"YesNoVC", // selection
                                        @"SliderVC"];

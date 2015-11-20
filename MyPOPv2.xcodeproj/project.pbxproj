@@ -11,6 +11,8 @@
 		49125DB31BF7E685007C9145 /* YesNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB21BF7E685007C9145 /* YesNoViewController.m */; settings = {ASSET_TAGS = (); }; };
 		49125DB61BF7ECA9007C9145 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB51BF7ECA9007C9145 /* SliderViewController.m */; settings = {ASSET_TAGS = (); }; };
 		49125DBA1BF93DA3007C9145 /* BaseQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49B397451BFE43ED003471F3 /* SelectMultipleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49EC42741BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */; settings = {ASSET_TAGS = (); }; };
 		DD5902F01BE7C3C900718FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902EF1BE7C3C900718FD3 /* main.m */; };
 		DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902F21BE7C3C900718FD3 /* AppDelegate.m */; };
 		DD5902F61BE7C3C900718FD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902F51BE7C3C900718FD3 /* ViewController.m */; };
@@ -47,6 +49,10 @@
 		49125DB51BF7ECA9007C9145 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SliderViewController.m; path = mypopv2/SliderViewController.m; sourceTree = SOURCE_ROOT; };
 		49125DB81BF93DA3007C9145 /* BaseQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseQuestionViewController.h; path = mypopv2/BaseQuestionViewController.h; sourceTree = SOURCE_ROOT; };
 		49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseQuestionViewController.m; path = mypopv2/BaseQuestionViewController.m; sourceTree = SOURCE_ROOT; };
+		49B397431BFE43ED003471F3 /* SelectMultipleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectMultipleViewController.h; path = mypopv2/SelectMultipleViewController.h; sourceTree = SOURCE_ROOT; };
+		49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectMultipleViewController.m; path = mypopv2/SelectMultipleViewController.m; sourceTree = SOURCE_ROOT; };
+		49EC42721BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectMultipleWithSliderViewController.h; path = mypopv2/SelectMultipleWithSliderViewController.h; sourceTree = SOURCE_ROOT; };
+		49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectMultipleWithSliderViewController.m; path = mypopv2/SelectMultipleWithSliderViewController.m; sourceTree = SOURCE_ROOT; };
 		DD5902EB1BE7C3C900718FD3 /* MyPOPv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPOPv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5902EF1BE7C3C900718FD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD5902F11BE7C3C900718FD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +105,10 @@
 				49125DB21BF7E685007C9145 /* YesNoViewController.m */,
 				49125DB41BF7ECA9007C9145 /* SliderViewController.h */,
 				49125DB51BF7ECA9007C9145 /* SliderViewController.m */,
+				49B397431BFE43ED003471F3 /* SelectMultipleViewController.h */,
+				49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */,
+				49EC42721BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.h */,
+				49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */,
 			);
 			name = SurveyVCs;
 			sourceTree = "<group>";
@@ -298,10 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EC42741BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m in Sources */,
 				DD5902F61BE7C3C900718FD3 /* ViewController.m in Sources */,
 				49125DB61BF7ECA9007C9145 /* SliderViewController.m in Sources */,
 				49125DB01BF7D99C007C9145 /* StartSurveyViewController.m in Sources */,
 				49125DBA1BF93DA3007C9145 /* BaseQuestionViewController.m in Sources */,
+				49B397451BFE43ED003471F3 /* SelectMultipleViewController.m in Sources */,
 				49125DB31BF7E685007C9145 /* YesNoViewController.m in Sources */,
 				DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */,
 				DD5902F01BE7C3C900718FD3 /* main.m in Sources */,
