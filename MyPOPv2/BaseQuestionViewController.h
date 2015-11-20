@@ -16,5 +16,6 @@
 @property (nonatomic, strong) NSString *question;
 @property (nonatomic, strong) NSString *qtype;
 @property NSUInteger qnumber;
+@property (nonatomic, strong) NSString *skipQuestion;
 
 @end
