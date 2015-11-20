@@ -19,6 +19,13 @@
     
     [self.questionLabel setText:self.question];
     
+    
+    
+    
+    
+    
+    
+    
     [self loadQuestions];
 }
 

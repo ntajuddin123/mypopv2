@@ -10,4 +10,6 @@
 
 @interface StartSurveyViewController : UIViewController <UIPageViewControllerDataSource>
 
+- (void)goToNextContentViewController;
+
 @end

@@ -14,6 +14,7 @@
 @property (strong, nonatomic) UIPageViewController *pageViewController;
 @property (strong, nonatomic) NSArray *contentPageRestorationIDs; // NSString
 @property (strong, nonatomic) NSArray *questions; // NSString
+@property (strong, nonatomic) NSArray *skipStrings;
 
 @end
 
@@ -21,6 +22,8 @@
 
 @synthesize contentPageRestorationIDs = _contentPageRestorationIDs;
 @synthesize questions = _questions;
+@synthesize skipStrings = _skipStrings;
+
 
 #pragma mark - Setters and Getters
 - (NSArray *)contentPageRestorationIDs
@@ -31,6 +34,7 @@
                                        @"SliderVC",
                                        @"SliderVC", // selection
                                        @"YesNoVC",  // body diagram
+                                       @"YesNoVC",
                                        @"SelectMultipleVC",
                                        @"YesNoVC", // selection
                                        @"YesNoVC",
@@ -52,28 +56,58 @@
 - (NSArray *)questions
 {
     if (!_questions) {
-        _questions = @[@"Have you had pain related to surgery?",
-                       @"Do you have pain right now?",
-                       @"Show your WORST pain since your last entry",
-                       @"When you had your WORST pain, how long did it last?",
-                       @"Does your pain BUG or ANNOY you right now?",
-                       @"Touch the words that best describe your pain",
-                       @"Does your pain make you feel MAD/ANGRY?",
-                       @"Does your pain make you feel SAD?",
-                       @"Does your pain make you feel WORRIED?",
-                       @"Does pain affect your SLEEP?",
-                       @"Does pain get in the way of you DOING THINGS?",
-                       @"Does pain affect being able to move around (e.g. walking, getting out of bed)?",
-                       @"Does pain affect your eating or drinking?",
-                       @"Does you experience any other symptoms related to your pain?",
-                       @"Have you taken any pain medicine?",
-                       @"Did your pain medicines cause any side effects?",
-                       @"What other strategies did you use to try and reduce your pain?",
-                       @"Show how much you were able to MANAGE your pain"];
+        _questions =   @[@"Have you had pain related to surgery?",
+                         @"Do you have pain right now?",
+                         @"Show your WORST pain since your last entry",
+                         @"When you had your WORST pain, how long did it last?",
+                         @"Show WHERE YOU HURT",
+                         @"Does your pain BUG or ANNOY you right now?",
+                         @"Touch the words that best describe your pain",
+                         @"Does your pain make you feel MAD/ANGRY?",
+                         @"Does your pain make you feel SAD?",
+                         @"Does your pain make you feel WORRIED?",
+                         @"Does pain affect your SLEEP?",
+                         @"Does pain get in the way of you DOING THINGS?",
+                         @"Does pain affect being able to move around (e.g. walking, getting out of bed)?",
+                         @"Does pain affect your eating or drinking?",
+                         @"Does you experience any other symptoms related to your pain?",
+                         @"Have you taken any pain medicine?",
+                         @"Did your pain medicines cause any side effects?",
+                         @"What other strategies did you use to try and reduce your pain?",
+                         @"Show how much you were able to MANAGE your pain"];
     }
     
     return _questions;
     
+}
+
+- (NSArray *)skipStrings
+{
+    if (!_skipStrings) {
+        _skipStrings = @[[NSNull null],
+                         [NSNull null],
+                         [NSNull null],
+                         [NSNull null],
+                         @"Has the place where you hurt changed since your last entry?",
+                         [NSNull null],
+                         @"Have the words to describe your pain changed since your last entry?",
+                         [NSNull null],
+                         [NSNull null],
+                         [NSNull null],
+                         [NSNull null],
+                         [NSNull null],
+                         [NSNull null],
+                         [NSNull null],
+                         @"Have your other symptoms related to your pain changed since your last entry?",
+                         @"Has your pain medicine changed since your last entry?",
+                         @"Did your pain medicine side effects change since your last entry?",
+                         @"Have the other strategies you used to try and reduce your pain changed since your last entry?",
+                         [NSNull null]];
+        
+
+    }
+    
+    return _skipStrings;
 }
 
 
@@ -120,15 +154,8 @@
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-//    NSString *vcRestorationID = viewController.restorationIdentifier;
-//    NSUInteger index = [self.contentPageRestorationIDs indexOfObject:vcRestorationID];
-//    
-
     BaseQuestionViewController *bvc = (BaseQuestionViewController *)viewController;
     NSUInteger index = bvc.qnumber;
-    
-    
-    
     
     if (index == 0) {
         return nil;
@@ -139,19 +166,33 @@
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
-//    NSString *vcRestorationID = viewController.restorationIdentifier;
     BaseQuestionViewController *bvc = (BaseQuestionViewController *)viewController;
     NSUInteger index = bvc.qnumber;
     
-    
-//    NSUInteger index = [self.contentPageRestorationIDs indexOfObject:vcRestorationID];
-//    
     if (index == self.questions.count - 1) {
         return nil;
     }
     
     return [self viewControllerAtIndex:index + 1];
 }
+
+#pragma mark - Public Methods
+- (void)goToNextContentViewController
+{
+  
+    BaseQuestionViewController *bvc = (BaseQuestionViewController *)[self.pageViewController.viewControllers objectAtIndex:0];
+    NSUInteger index = bvc.qnumber;
+
+    UIViewController *nextViewController = [self viewControllerAtIndex:index + 1];
+    
+    [self.pageViewController setViewControllers:@[nextViewController]
+                                      direction:UIPageViewControllerNavigationDirectionForward
+                                       animated:YES
+                                     completion:^(BOOL finished) {
+                                         // Completion code
+                                     }];
+}
+
 
 #pragma mark - Private Methods
 - (UIViewController *)viewControllerAtIndex:(NSUInteger)index
@@ -167,6 +208,9 @@
     contentViewController.rootViewController = self;
     contentViewController.question = [self.questions objectAtIndex:index];
     contentViewController.qnumber = index;
+    
+    contentViewController.skipQuestion = [self.skipStrings objectAtIndex:index] == [NSNull null] ? [NSNull null] : [self.skipStrings objectAtIndex:index];
+    
     
     return contentViewController;
 }
