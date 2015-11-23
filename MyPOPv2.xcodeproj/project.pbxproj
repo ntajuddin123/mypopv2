@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49125DB01BF7D99C007C9145 /* StartSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49125DB31BF7E685007C9145 /* YesNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB21BF7E685007C9145 /* YesNoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49125DB61BF7ECA9007C9145 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB51BF7ECA9007C9145 /* SliderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49125DBA1BF93DA3007C9145 /* BaseQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49B397451BFE43ED003471F3 /* SelectMultipleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49EC42741BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DD5902F01BE7C3C900718FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902EF1BE7C3C900718FD3 /* main.m */; };
+		DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902F21BE7C3C900718FD3 /* AppDelegate.m */; };
+		DD5902F61BE7C3C900718FD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902F51BE7C3C900718FD3 /* ViewController.m */; };
+		DD5902F91BE7C3C900718FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5902F71BE7C3C900718FD3 /* Main.storyboard */; };
+		DD5902FB1BE7C3C900718FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5902FA1BE7C3C900718FD3 /* Assets.xcassets */; };
+		DD5902FE1BE7C3C900718FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5902FC1BE7C3C900718FD3 /* LaunchScreen.storyboard */; };
+		DD5903091BE7C3C900718FD3 /* MyPOPv2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5903081BE7C3C900718FD3 /* MyPOPv2Tests.m */; };
+		DD5903141BE7C3C900718FD3 /* MyPOPv2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5903131BE7C3C900718FD3 /* MyPOPv2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5903051BE7C3C900718FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5902E31BE7C3C900718FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5902EA1BE7C3C900718FD3;
+			remoteInfo = MyPOPv2;
+		};
+		DD5903101BE7C3C900718FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5902E31BE7C3C900718FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5902EA1BE7C3C900718FD3;
+			remoteInfo = MyPOPv2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49125DAE1BF7D99C007C9145 /* StartSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartSurveyViewController.h; path = mypopv2/StartSurveyViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartSurveyViewController.m; path = mypopv2/StartSurveyViewController.m; sourceTree = SOURCE_ROOT; };
+		49125DB11BF7E685007C9145 /* YesNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YesNoViewController.h; path = mypopv2/YesNoViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DB21BF7E685007C9145 /* YesNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YesNoViewController.m; path = mypopv2/YesNoViewController.m; sourceTree = SOURCE_ROOT; };
+		49125DB41BF7ECA9007C9145 /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SliderViewController.h; path = mypopv2/SliderViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DB51BF7ECA9007C9145 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SliderViewController.m; path = mypopv2/SliderViewController.m; sourceTree = SOURCE_ROOT; };
+		49125DB81BF93DA3007C9145 /* BaseQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseQuestionViewController.h; path = mypopv2/BaseQuestionViewController.h; sourceTree = SOURCE_ROOT; };
+		49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseQuestionViewController.m; path = mypopv2/BaseQuestionViewController.m; sourceTree = SOURCE_ROOT; };
+		49B397431BFE43ED003471F3 /* SelectMultipleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectMultipleViewController.h; path = mypopv2/SelectMultipleViewController.h; sourceTree = SOURCE_ROOT; };
+		49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectMultipleViewController.m; path = mypopv2/SelectMultipleViewController.m; sourceTree = SOURCE_ROOT; };
+		49EC42721BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectMultipleWithSliderViewController.h; path = mypopv2/SelectMultipleWithSliderViewController.h; sourceTree = SOURCE_ROOT; };
+		49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectMultipleWithSliderViewController.m; path = mypopv2/SelectMultipleWithSliderViewController.m; sourceTree = SOURCE_ROOT; };
+		DD5902EB1BE7C3C900718FD3 /* MyPOPv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPOPv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5902EF1BE7C3C900718FD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5902F11BE7C3C900718FD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD5902F21BE7C3C900718FD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5902F41BE7C3C900718FD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD5902F51BE7C3C900718FD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD5902F81BE7C3C900718FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5902FA1BE7C3C900718FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5902FD1BE7C3C900718FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5902FF1BE7C3C900718FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5903041BE7C3C900718FD3 /* MyPOPv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPOPv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5903081BE7C3C900718FD3 /* MyPOPv2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPOPv2Tests.m; sourceTree = "<group>"; };
+		DD59030A1BE7C3C900718FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD59030F1BE7C3C900718FD3 /* MyPOPv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPOPv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5903131BE7C3C900718FD3 /* MyPOPv2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPOPv2UITests.m; sourceTree = "<group>"; };
+		DD5903151BE7C3C900718FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5902E81BE7C3C900718FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5903011BE7C3C900718FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59030C1BE7C3C900718FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49125DB71BF93D48007C9145 /* SurveyVCs */ = {
+			isa = PBXGroup;
+			children = (
+				49125DB81BF93DA3007C9145 /* BaseQuestionViewController.h */,
+				49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */,
+				49125DB11BF7E685007C9145 /* YesNoViewController.h */,
+				49125DB21BF7E685007C9145 /* YesNoViewController.m */,
+				49125DB41BF7ECA9007C9145 /* SliderViewController.h */,
+				49125DB51BF7ECA9007C9145 /* SliderViewController.m */,
+				49B397431BFE43ED003471F3 /* SelectMultipleViewController.h */,
+				49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */,
+				49EC42721BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.h */,
+				49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */,
+			);
+			name = SurveyVCs;
+			sourceTree = "<group>";
+		};
+		DD5902E21BE7C3C900718FD3 = {
+			isa = PBXGroup;
+			children = (
+				DD5902ED1BE7C3C900718FD3 /* MyPOPv2 */,
+				DD5903071BE7C3C900718FD3 /* MyPOPv2Tests */,
+				DD5903121BE7C3C900718FD3 /* MyPOPv2UITests */,
+				DD5902EC1BE7C3C900718FD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5902EC1BE7C3C900718FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5902EB1BE7C3C900718FD3 /* MyPOPv2.app */,
+				DD5903041BE7C3C900718FD3 /* MyPOPv2Tests.xctest */,
+				DD59030F1BE7C3C900718FD3 /* MyPOPv2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5902ED1BE7C3C900718FD3 /* MyPOPv2 */ = {
+			isa = PBXGroup;
+			children = (
+				49125DB71BF93D48007C9145 /* SurveyVCs */,
+				DD5902F11BE7C3C900718FD3 /* AppDelegate.h */,
+				DD5902F21BE7C3C900718FD3 /* AppDelegate.m */,
+				DD5902F41BE7C3C900718FD3 /* ViewController.h */,
+				DD5902F51BE7C3C900718FD3 /* ViewController.m */,
+				DD5902F71BE7C3C900718FD3 /* Main.storyboard */,
+				DD5902FA1BE7C3C900718FD3 /* Assets.xcassets */,
+				DD5902FC1BE7C3C900718FD3 /* LaunchScreen.storyboard */,
+				DD5902FF1BE7C3C900718FD3 /* Info.plist */,
+				DD5902EE1BE7C3C900718FD3 /* Supporting Files */,
+				49125DAE1BF7D99C007C9145 /* StartSurveyViewController.h */,
+				49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */,
+			);
+			path = MyPOPv2;
+			sourceTree = "<group>";
+		};
+		DD5902EE1BE7C3C900718FD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5902EF1BE7C3C900718FD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD5903071BE7C3C900718FD3 /* MyPOPv2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5903081BE7C3C900718FD3 /* MyPOPv2Tests.m */,
+				DD59030A1BE7C3C900718FD3 /* Info.plist */,
+			);
+			path = MyPOPv2Tests;
+			sourceTree = "<group>";
+		};
+		DD5903121BE7C3C900718FD3 /* MyPOPv2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5903131BE7C3C900718FD3 /* MyPOPv2UITests.m */,
+				DD5903151BE7C3C900718FD3 /* Info.plist */,
+			);
+			path = MyPOPv2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5902EA1BE7C3C900718FD3 /* MyPOPv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5903181BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2" */;
+			buildPhases = (
+				DD5902E71BE7C3C900718FD3 /* Sources */,
+				DD5902E81BE7C3C900718FD3 /* Frameworks */,
+				DD5902E91BE7C3C900718FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPOPv2;
+			productName = MyPOPv2;
+			productReference = DD5902EB1BE7C3C900718FD3 /* MyPOPv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5903031BE7C3C900718FD3 /* MyPOPv2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59031B1BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2Tests" */;
+			buildPhases = (
+				DD5903001BE7C3C900718FD3 /* Sources */,
+				DD5903011BE7C3C900718FD3 /* Frameworks */,
+				DD5903021BE7C3C900718FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5903061BE7C3C900718FD3 /* PBXTargetDependency */,
+			);
+			name = MyPOPv2Tests;
+			productName = MyPOPv2Tests;
+			productReference = DD5903041BE7C3C900718FD3 /* MyPOPv2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD59030E1BE7C3C900718FD3 /* MyPOPv2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59031E1BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2UITests" */;
+			buildPhases = (
+				DD59030B1BE7C3C900718FD3 /* Sources */,
+				DD59030C1BE7C3C900718FD3 /* Frameworks */,
+				DD59030D1BE7C3C900718FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5903111BE7C3C900718FD3 /* PBXTargetDependency */,
+			);
+			name = MyPOPv2UITests;
+			productName = MyPOPv2UITests;
+			productReference = DD59030F1BE7C3C900718FD3 /* MyPOPv2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5902E31BE7C3C900718FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Naweed Tajuddin";
+				TargetAttributes = {
+					DD5902EA1BE7C3C900718FD3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DD5903031BE7C3C900718FD3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DD5902EA1BE7C3C900718FD3;
+					};
+					DD59030E1BE7C3C900718FD3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DD5902EA1BE7C3C900718FD3;
+					};
+				};
+			};
+			buildConfigurationList = DD5902E61BE7C3C900718FD3 /* Build configuration list for PBXProject "MyPOPv2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5902E21BE7C3C900718FD3;
+			productRefGroup = DD5902EC1BE7C3C900718FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5902EA1BE7C3C900718FD3 /* MyPOPv2 */,
+				DD5903031BE7C3C900718FD3 /* MyPOPv2Tests */,
+				DD59030E1BE7C3C900718FD3 /* MyPOPv2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5902E91BE7C3C900718FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5902FE1BE7C3C900718FD3 /* LaunchScreen.storyboard in Resources */,
+				DD5902FB1BE7C3C900718FD3 /* Assets.xcassets in Resources */,
+				DD5902F91BE7C3C900718FD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5903021BE7C3C900718FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59030D1BE7C3C900718FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5902E71BE7C3C900718FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EC42741BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m in Sources */,
+				DD5902F61BE7C3C900718FD3 /* ViewController.m in Sources */,
+				49125DB61BF7ECA9007C9145 /* SliderViewController.m in Sources */,
+				49125DB01BF7D99C007C9145 /* StartSurveyViewController.m in Sources */,
+				49125DBA1BF93DA3007C9145 /* BaseQuestionViewController.m in Sources */,
+				49B397451BFE43ED003471F3 /* SelectMultipleViewController.m in Sources */,
+				49125DB31BF7E685007C9145 /* YesNoViewController.m in Sources */,
+				DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */,
+				DD5902F01BE7C3C900718FD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5903001BE7C3C900718FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5903091BE7C3C900718FD3 /* MyPOPv2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59030B1BE7C3C900718FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5903141BE7C3C900718FD3 /* MyPOPv2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5903061BE7C3C900718FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5902EA1BE7C3C900718FD3 /* MyPOPv2 */;
+			targetProxy = DD5903051BE7C3C900718FD3 /* PBXContainerItemProxy */;
+		};
+		DD5903111BE7C3C900718FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5902EA1BE7C3C900718FD3 /* MyPOPv2 */;
+			targetProxy = DD5903101BE7C3C900718FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD5902F71BE7C3C900718FD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5902F81BE7C3C900718FD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5902FC1BE7C3C900718FD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5902FD1BE7C3C900718FD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5903161BE7C3C900718FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5903171BE7C3C900718FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5903191BE7C3C900718FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyPOPv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickkids.dev.MyPOPv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD59031A1BE7C3C900718FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyPOPv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickkids.dev.MyPOPv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD59031C1BE7C3C900718FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyPOPv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickkids.dev.MyPOPv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPOPv2.app/MyPOPv2";
+			};
+			name = Debug;
+		};
+		DD59031D1BE7C3C900718FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyPOPv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickkids.dev.MyPOPv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPOPv2.app/MyPOPv2";
+			};
+			name = Release;
+		};
+		DD59031F1BE7C3C900718FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyPOPv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickkids.dev.MyPOPv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyPOPv2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD5903201BE7C3C900718FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyPOPv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickkids.dev.MyPOPv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyPOPv2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5902E61BE7C3C900718FD3 /* Build configuration list for PBXProject "MyPOPv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5903161BE7C3C900718FD3 /* Debug */,
+				DD5903171BE7C3C900718FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5903181BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5903191BE7C3C900718FD3 /* Debug */,
+				DD59031A1BE7C3C900718FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59031B1BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59031C1BE7C3C900718FD3 /* Debug */,
+				DD59031D1BE7C3C900718FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59031E1BE7C3C900718FD3 /* Build configuration list for PBXNativeTarget "MyPOPv2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59031F1BE7C3C900718FD3 /* Debug */,
+				DD5903201BE7C3C900718FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5902E31BE7C3C900718FD3 /* Project object */;
+}
