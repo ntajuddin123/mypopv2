@@ -32,21 +32,21 @@
         _contentPageRestorationIDs = @[@"YesNoVC",
                                        @"YesNoVC",
                                        @"SliderVC",
-                                       @"SliderVC", // selection
-                                       @"YesNoVC",  // body diagram
+                                   //    @"SliderVC", // selection
+                                   //    @"YesNoVC",  // body diagram
                                        @"YesNoVC",
                                        @"SelectMultipleVC",
-                                       @"YesNoVC", // selection
                                        @"YesNoVC",
-                                       @"YesNoVC",
-                                       @"YesNoVC",
-                                       @"YesNoVC",
-                                       @"YesNoVC",
-                                       @"YesNoVC",
-                                       @"YesNoVC",
+                                   //    @"YesNoVC",
+                                   //    @"YesNoVC",
+                                    //   @"YesNoVC",
+                                    //   @"YesNoVC",
+                                   //    @"YesNoVC",
+                                   //    @"YesNoVC",
+                                      // @"YesNoVC",
                                        @"SelectMultipleWithSliderVC", // selection
-                                       @"YesNoVC", // selection
-                                       @"YesNoVC", // selection
+                                   //    @"SelectMultipleVC", // selection
+                                       @"SelectMultipleVC", // selection
                                        @"SliderVC"];
     }
     
@@ -59,20 +59,20 @@
         _questions =   @[@"Have you had pain related to surgery?",
                          @"Do you have pain right now?",
                          @"Show your WORST pain since your last entry",
-                         @"When you had your WORST pain, how long did it last?",
-                         @"Show WHERE YOU HURT",
+                        // @"When you had your WORST pain, how long did it last?",
+                        // @"Show WHERE YOU HURT",
                          @"Does your pain BUG or ANNOY you right now?",
                          @"Touch the words that best describe your pain",
                          @"Does your pain make you feel MAD/ANGRY?",
-                         @"Does your pain make you feel SAD?",
-                         @"Does your pain make you feel WORRIED?",
-                         @"Does pain affect your SLEEP?",
-                         @"Does pain get in the way of you DOING THINGS?",
-                         @"Does pain affect being able to move around (e.g. walking, getting out of bed)?",
-                         @"Does pain affect your eating or drinking?",
-                         @"Does you experience any other symptoms related to your pain?",
+                        // @"Does your pain make you feel SAD?",
+                        // @"Does your pain make you feel WORRIED?",
+                       //  @"Does pain affect your SLEEP?",
+                        // @"Does pain get in the way of you DOING THINGS?",
+                        // @"Does pain affect being able to move around (e.g. walking, getting out of bed)?",
+                        // @"Does pain affect your eating or drinking?",
+                         //@"Does you experience any other symptoms related to your pain?",
                          @"Have you taken any pain medicine?",
-                         @"Did your pain medicines cause any side effects?",
+                        // @"Did your pain medicines cause any side effects?",
                          @"What other strategies did you use to try and reduce your pain?",
                          @"Show how much you were able to MANAGE your pain"];
     }
@@ -87,20 +87,20 @@
         _skipStrings = @[[NSNull null],
                          [NSNull null],
                          [NSNull null],
-                         [NSNull null],
-                         @"Has the place where you hurt changed since your last entry?",
+                     //    [NSNull null],
+                    //     @"Has the place where you hurt changed since your last entry?",
                          [NSNull null],
                          @"Have the words to describe your pain changed since your last entry?",
                          [NSNull null],
-                         [NSNull null],
-                         [NSNull null],
-                         [NSNull null],
-                         [NSNull null],
-                         [NSNull null],
-                         [NSNull null],
-                         @"Have your other symptoms related to your pain changed since your last entry?",
+                    //     [NSNull null],
+                    //     [NSNull null],
+                     //    [NSNull null],
+                     //    [NSNull null],
+                     //    [NSNull null],
+                     //    [NSNull null],
+                     //    @"Have your other symptoms related to your pain changed since your last entry?",
                          @"Has your pain medicine changed since your last entry?",
-                         @"Did your pain medicine side effects change since your last entry?",
+                      //   @"Did your pain medicine side effects change since your last entry?",
                          @"Have the other strategies you used to try and reduce your pain changed since your last entry?",
                          [NSNull null]];
         

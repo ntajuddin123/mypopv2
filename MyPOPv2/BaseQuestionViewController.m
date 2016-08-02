@@ -41,8 +41,27 @@
         [self presentViewController:alert animated:YES completion:nil];
 
     }
-        
+    
+    self.tabBarController.navigationItem.title = @"Track MyPOP";
+    
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithTitle:@"Previous"
+                                                                   style:UIBarButtonItemStylePlain target:self action:@selector(previousButtonPressed)];
+    self.tabBarController.navigationItem.leftBarButtonItem = leftButton;
+    
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Next"
+                                                                    style:UIBarButtonItemStylePlain target:self action:@selector(nextButtonPressed)];
+    self.tabBarController.navigationItem.rightBarButtonItem = rightButton;
 
+}
+
+//- (void)previousButtonPressed {
+//    
+//    [self.rootViewController goToPreviousViewController];
+//}
+
+- (void)nextButtonPressed {
+    
+    [self.rootViewController goToNextContentViewController];
 }
 
 - (void)didReceiveMemoryWarning {

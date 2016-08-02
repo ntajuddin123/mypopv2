@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
 
     [super viewDidLoad];
-
+    
     [self.questionLabel setText:self.question];
     
 }
@@ -36,5 +36,21 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)buttonPressed:(id)sender {
+    
+    NSUInteger t = [sender tag];
+    UISlider *slider = nil;
+    
+    for (slider in self.sliders) {
+        if (slider.tag == t) {
+            break;
+        }
+    }
+    
+    if (slider) {
+        slider.enabled = !slider.enabled;
+    }
+    
+}
 
 @end

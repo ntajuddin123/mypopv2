@@ -42,9 +42,12 @@
 
 - (void) buttonPressed {
     
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"SliderVC"];
-    [self.navigationController pushViewController:vc animated:YES];
+//    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"SliderVC"];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+     [self.rootViewController goToNextContentViewController];
     
 }
 

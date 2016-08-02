@@ -10,6 +10,12 @@
 
 @interface SelectMultipleWithSliderViewController : BaseQuestionViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *questionLabel;
+@property (strong, nonatomic) IBOutlet UILabel *questionLabel;
+
+@property (strong, nonatomic) IBOutletCollection(UISlider) NSArray *sliders;
+
+
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *labels;
+
 
 @end

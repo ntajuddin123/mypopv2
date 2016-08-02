@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "BaseQuestionViewController.h"
 
-@interface SelectMultipleViewController : BaseQuestionViewController
+@interface SelectMultipleViewController : BaseQuestionViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, retain) IBOutletCollection(UIButton) NSArray *buttons;
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
 
 @end

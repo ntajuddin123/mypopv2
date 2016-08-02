@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate>
 
+@property (unsafe_unretained, nonatomic) IBOutlet UIPickerView *surgeryPicker;
+
+@property (unsafe_unretained, nonatomic) IBOutlet UITextField *surgeryTextField;
+@property (unsafe_unretained, nonatomic) IBOutlet UITextField *dateTextField;
+
+@property (unsafe_unretained, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @end
 

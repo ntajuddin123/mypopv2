@@ -18,7 +18,25 @@
 		4949DCE91C03D7F600F2BA6F /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4949DCE41C03D7F600F2BA6F /* photo4.png */; settings = {ASSET_TAGS = (); }; };
 		4949DCEA1C03D7F600F2BA6F /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4949DCE51C03D7F600F2BA6F /* photo5.png */; settings = {ASSET_TAGS = (); }; };
 		4949DCED1C03D98C00F2BA6F /* ScrollViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4949DCEC1C03D98C00F2BA6F /* ScrollViewContainer.m */; settings = {ASSET_TAGS = (); }; };
+		4983A3F81C065EE4005F6973 /* blue-time.png in Resources */ = {isa = PBXBuildFile; fileRef = 4983A3F61C065EE4005F6973 /* blue-time.png */; settings = {ASSET_TAGS = (); }; };
+		4983A3F91C065EE4005F6973 /* green-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 4983A3F71C065EE4005F6973 /* green-check.png */; settings = {ASSET_TAGS = (); }; };
+		4983A3FC1C06610E005F6973 /* advice-fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4983A3FA1C06610E005F6973 /* advice-fav.png */; settings = {ASSET_TAGS = (); }; };
+		4983A3FD1C06610E005F6973 /* advice-not-fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4983A3FB1C06610E005F6973 /* advice-not-fav.png */; settings = {ASSET_TAGS = (); }; };
+		4983A4001C070366005F6973 /* GoalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4983A3FF1C070366005F6973 /* GoalsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4983A4031C080841005F6973 /* CategoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4983A4021C080841005F6973 /* CategoriesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4983A4061C091E62005F6973 /* GoalsProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4983A4051C091E62005F6973 /* GoalsProgressViewController.m */; settings = {ASSET_TAGS = (); }; };
 		49B397451BFE43ED003471F3 /* SelectMultipleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49DC729E1C0A6F3A00C6F222 /* ShowMultipleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DC729D1C0A6F3A00C6F222 /* ShowMultipleTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49DC72A41C0AC65700C6F222 /* Mypophomepageheader.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72A31C0AC65700C6F222 /* Mypophomepageheader.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72AD1C0C23F500C6F222 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72A51C0C23F500C6F222 /* pic1.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72AF1C0C23F500C6F222 /* pic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72A71C0C23F500C6F222 /* pic3.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72B01C0C23F500C6F222 /* pic4.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72A81C0C23F500C6F222 /* pic4.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72B11C0C23F500C6F222 /* pic5.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72A91C0C23F500C6F222 /* pic5.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72B21C0C23F500C6F222 /* pic6.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72AA1C0C23F500C6F222 /* pic6.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72B31C0C23F500C6F222 /* pic7.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72AB1C0C23F500C6F222 /* pic7.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72B41C0C23F500C6F222 /* pic8.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72AC1C0C23F500C6F222 /* pic8.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72B81C0C24E400C6F222 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DC72B71C0C24E400C6F222 /* pic2.png */; settings = {ASSET_TAGS = (); }; };
+		49DC72BB1C0C2ACD00C6F222 /* CustomGoalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DC72BA1C0C2ACD00C6F222 /* CustomGoalsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		49EC42741BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */; settings = {ASSET_TAGS = (); }; };
 		DD5902F01BE7C3C900718FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902EF1BE7C3C900718FD3 /* main.m */; };
 		DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5902F21BE7C3C900718FD3 /* AppDelegate.m */; };
@@ -65,8 +83,31 @@
 		4949DCE51C03D7F600F2BA6F /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo5.png; path = mypopv2/photo5.png; sourceTree = SOURCE_ROOT; };
 		4949DCEB1C03D98C00F2BA6F /* ScrollViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollViewContainer.h; path = mypopv2/ScrollViewContainer.h; sourceTree = SOURCE_ROOT; };
 		4949DCEC1C03D98C00F2BA6F /* ScrollViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollViewContainer.m; path = mypopv2/ScrollViewContainer.m; sourceTree = SOURCE_ROOT; };
+		4983A3F61C065EE4005F6973 /* blue-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue-time.png"; path = "mypopv2/blue-time.png"; sourceTree = SOURCE_ROOT; };
+		4983A3F71C065EE4005F6973 /* green-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "green-check.png"; path = "mypopv2/green-check.png"; sourceTree = SOURCE_ROOT; };
+		4983A3FA1C06610E005F6973 /* advice-fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "advice-fav.png"; path = "mypopv2/advice-fav.png"; sourceTree = SOURCE_ROOT; };
+		4983A3FB1C06610E005F6973 /* advice-not-fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "advice-not-fav.png"; path = "mypopv2/advice-not-fav.png"; sourceTree = SOURCE_ROOT; };
+		4983A3FE1C070366005F6973 /* GoalsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalsTableViewController.h; path = mypopv2/GoalsTableViewController.h; sourceTree = SOURCE_ROOT; };
+		4983A3FF1C070366005F6973 /* GoalsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalsTableViewController.m; path = mypopv2/GoalsTableViewController.m; sourceTree = SOURCE_ROOT; };
+		4983A4011C080841005F6973 /* CategoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoriesTableViewController.h; path = mypopv2/CategoriesTableViewController.h; sourceTree = SOURCE_ROOT; };
+		4983A4021C080841005F6973 /* CategoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoriesTableViewController.m; path = mypopv2/CategoriesTableViewController.m; sourceTree = SOURCE_ROOT; };
+		4983A4041C091E62005F6973 /* GoalsProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalsProgressViewController.h; path = mypopv2/GoalsProgressViewController.h; sourceTree = SOURCE_ROOT; };
+		4983A4051C091E62005F6973 /* GoalsProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalsProgressViewController.m; path = mypopv2/GoalsProgressViewController.m; sourceTree = SOURCE_ROOT; };
 		49B397431BFE43ED003471F3 /* SelectMultipleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectMultipleViewController.h; path = mypopv2/SelectMultipleViewController.h; sourceTree = SOURCE_ROOT; };
 		49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectMultipleViewController.m; path = mypopv2/SelectMultipleViewController.m; sourceTree = SOURCE_ROOT; };
+		49DC729C1C0A6F3A00C6F222 /* ShowMultipleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowMultipleTableViewController.h; path = mypopv2/ShowMultipleTableViewController.h; sourceTree = SOURCE_ROOT; };
+		49DC729D1C0A6F3A00C6F222 /* ShowMultipleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowMultipleTableViewController.m; path = mypopv2/ShowMultipleTableViewController.m; sourceTree = SOURCE_ROOT; };
+		49DC72A31C0AC65700C6F222 /* Mypophomepageheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mypophomepageheader.png; path = mypopv2/Mypophomepageheader.png; sourceTree = SOURCE_ROOT; };
+		49DC72A51C0C23F500C6F222 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic1.png; path = mypopv2/pic1.png; sourceTree = SOURCE_ROOT; };
+		49DC72A71C0C23F500C6F222 /* pic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic3.png; path = mypopv2/pic3.png; sourceTree = SOURCE_ROOT; };
+		49DC72A81C0C23F500C6F222 /* pic4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic4.png; path = mypopv2/pic4.png; sourceTree = SOURCE_ROOT; };
+		49DC72A91C0C23F500C6F222 /* pic5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic5.png; path = mypopv2/pic5.png; sourceTree = SOURCE_ROOT; };
+		49DC72AA1C0C23F500C6F222 /* pic6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic6.png; path = mypopv2/pic6.png; sourceTree = SOURCE_ROOT; };
+		49DC72AB1C0C23F500C6F222 /* pic7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic7.png; path = mypopv2/pic7.png; sourceTree = SOURCE_ROOT; };
+		49DC72AC1C0C23F500C6F222 /* pic8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic8.png; path = mypopv2/pic8.png; sourceTree = SOURCE_ROOT; };
+		49DC72B71C0C24E400C6F222 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic2.png; path = mypopv2/pic2.png; sourceTree = SOURCE_ROOT; };
+		49DC72B91C0C2ACD00C6F222 /* CustomGoalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomGoalsViewController.h; path = mypopv2/CustomGoalsViewController.h; sourceTree = SOURCE_ROOT; };
+		49DC72BA1C0C2ACD00C6F222 /* CustomGoalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomGoalsViewController.m; path = mypopv2/CustomGoalsViewController.m; sourceTree = SOURCE_ROOT; };
 		49EC42721BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectMultipleWithSliderViewController.h; path = mypopv2/SelectMultipleWithSliderViewController.h; sourceTree = SOURCE_ROOT; };
 		49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectMultipleWithSliderViewController.m; path = mypopv2/SelectMultipleWithSliderViewController.m; sourceTree = SOURCE_ROOT; };
 		DD5902EB1BE7C3C900718FD3 /* MyPOPv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPOPv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,9 +153,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49125DB71BF93D48007C9145 /* SurveyVCs */ = {
+		49125DB71BF93D48007C9145 /* Track */ = {
 			isa = PBXGroup;
 			children = (
+				49125DAE1BF7D99C007C9145 /* StartSurveyViewController.h */,
+				49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */,
 				49125DB81BF93DA3007C9145 /* BaseQuestionViewController.h */,
 				49125DB91BF93DA3007C9145 /* BaseQuestionViewController.m */,
 				49125DB11BF7E685007C9145 /* YesNoViewController.h */,
@@ -125,8 +168,70 @@
 				49B397441BFE43ED003471F3 /* SelectMultipleViewController.m */,
 				49EC42721BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.h */,
 				49EC42731BFEFCEE004E77B2 /* SelectMultipleWithSliderViewController.m */,
+				49DC729C1C0A6F3A00C6F222 /* ShowMultipleTableViewController.h */,
+				49DC729D1C0A6F3A00C6F222 /* ShowMultipleTableViewController.m */,
 			);
-			name = SurveyVCs;
+			name = Track;
+			sourceTree = "<group>";
+		};
+		49DC729F1C0AAA0500C6F222 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49DC72B71C0C24E400C6F222 /* pic2.png */,
+				49DC72A51C0C23F500C6F222 /* pic1.png */,
+				49DC72A71C0C23F500C6F222 /* pic3.png */,
+				49DC72A81C0C23F500C6F222 /* pic4.png */,
+				49DC72A91C0C23F500C6F222 /* pic5.png */,
+				49DC72AA1C0C23F500C6F222 /* pic6.png */,
+				49DC72AB1C0C23F500C6F222 /* pic7.png */,
+				49DC72AC1C0C23F500C6F222 /* pic8.png */,
+				49DC72A31C0AC65700C6F222 /* Mypophomepageheader.png */,
+				4983A3FA1C06610E005F6973 /* advice-fav.png */,
+				4983A3FB1C06610E005F6973 /* advice-not-fav.png */,
+				4983A3F61C065EE4005F6973 /* blue-time.png */,
+				4983A3F71C065EE4005F6973 /* green-check.png */,
+				4949DCE11C03D7F600F2BA6F /* photo1.png */,
+				4949DCE21C03D7F600F2BA6F /* photo2.png */,
+				4949DCE31C03D7F600F2BA6F /* photo3.png */,
+				4949DCE41C03D7F600F2BA6F /* photo4.png */,
+				4949DCE51C03D7F600F2BA6F /* photo5.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		49DC72A01C0AAA1C00C6F222 /* Advice */ = {
+			isa = PBXGroup;
+			children = (
+				4949DCEB1C03D98C00F2BA6F /* ScrollViewContainer.h */,
+				4949DCEC1C03D98C00F2BA6F /* ScrollViewContainer.m */,
+				4949DCDE1C03D5E500F2BA6F /* PeekPagedScrollViewController.h */,
+				4949DCDF1C03D5E500F2BA6F /* PeekPagedScrollViewController.m */,
+			);
+			name = Advice;
+			sourceTree = "<group>";
+		};
+		49DC72A11C0AAA2F00C6F222 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				4983A3FE1C070366005F6973 /* GoalsTableViewController.h */,
+				4983A3FF1C070366005F6973 /* GoalsTableViewController.m */,
+				4983A4041C091E62005F6973 /* GoalsProgressViewController.h */,
+				4983A4051C091E62005F6973 /* GoalsProgressViewController.m */,
+				49DC72B91C0C2ACD00C6F222 /* CustomGoalsViewController.h */,
+				49DC72BA1C0C2ACD00C6F222 /* CustomGoalsViewController.m */,
+			);
+			name = Goals;
+			sourceTree = "<group>";
+		};
+		49DC72A21C0AAA6900C6F222 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DD5902F41BE7C3C900718FD3 /* ViewController.h */,
+				DD5902F51BE7C3C900718FD3 /* ViewController.m */,
+				4983A4011C080841005F6973 /* CategoriesTableViewController.h */,
+				4983A4021C080841005F6973 /* CategoriesTableViewController.m */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 		DD5902E21BE7C3C900718FD3 = {
@@ -152,27 +257,18 @@
 		DD5902ED1BE7C3C900718FD3 /* MyPOPv2 */ = {
 			isa = PBXGroup;
 			children = (
-				4949DCE11C03D7F600F2BA6F /* photo1.png */,
-				4949DCE21C03D7F600F2BA6F /* photo2.png */,
-				4949DCE31C03D7F600F2BA6F /* photo3.png */,
-				4949DCE41C03D7F600F2BA6F /* photo4.png */,
-				4949DCE51C03D7F600F2BA6F /* photo5.png */,
-				49125DB71BF93D48007C9145 /* SurveyVCs */,
+				49DC72A21C0AAA6900C6F222 /* Shared */,
+				49DC72A11C0AAA2F00C6F222 /* Goals */,
+				49DC72A01C0AAA1C00C6F222 /* Advice */,
+				49DC729F1C0AAA0500C6F222 /* Images */,
+				49125DB71BF93D48007C9145 /* Track */,
 				DD5902F11BE7C3C900718FD3 /* AppDelegate.h */,
 				DD5902F21BE7C3C900718FD3 /* AppDelegate.m */,
-				DD5902F41BE7C3C900718FD3 /* ViewController.h */,
-				DD5902F51BE7C3C900718FD3 /* ViewController.m */,
 				DD5902F71BE7C3C900718FD3 /* Main.storyboard */,
-				4949DCEB1C03D98C00F2BA6F /* ScrollViewContainer.h */,
-				4949DCEC1C03D98C00F2BA6F /* ScrollViewContainer.m */,
-				4949DCDE1C03D5E500F2BA6F /* PeekPagedScrollViewController.h */,
-				4949DCDF1C03D5E500F2BA6F /* PeekPagedScrollViewController.m */,
 				DD5902FA1BE7C3C900718FD3 /* Assets.xcassets */,
 				DD5902FC1BE7C3C900718FD3 /* LaunchScreen.storyboard */,
 				DD5902FF1BE7C3C900718FD3 /* Info.plist */,
 				DD5902EE1BE7C3C900718FD3 /* Supporting Files */,
-				49125DAE1BF7D99C007C9145 /* StartSurveyViewController.h */,
-				49125DAF1BF7D99C007C9145 /* StartSurveyViewController.m */,
 			);
 			path = MyPOPv2;
 			sourceTree = "<group>";
@@ -306,13 +402,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DC72A41C0AC65700C6F222 /* Mypophomepageheader.png in Resources */,
 				4949DCE91C03D7F600F2BA6F /* photo4.png in Resources */,
+				49DC72B11C0C23F500C6F222 /* pic5.png in Resources */,
 				4949DCE71C03D7F600F2BA6F /* photo2.png in Resources */,
+				49DC72B01C0C23F500C6F222 /* pic4.png in Resources */,
+				49DC72B41C0C23F500C6F222 /* pic8.png in Resources */,
 				4949DCE61C03D7F600F2BA6F /* photo1.png in Resources */,
+				49DC72B31C0C23F500C6F222 /* pic7.png in Resources */,
+				4983A3F91C065EE4005F6973 /* green-check.png in Resources */,
 				DD5902FE1BE7C3C900718FD3 /* LaunchScreen.storyboard in Resources */,
+				49DC72B81C0C24E400C6F222 /* pic2.png in Resources */,
 				4949DCEA1C03D7F600F2BA6F /* photo5.png in Resources */,
+				4983A3FC1C06610E005F6973 /* advice-fav.png in Resources */,
+				4983A3FD1C06610E005F6973 /* advice-not-fav.png in Resources */,
 				DD5902FB1BE7C3C900718FD3 /* Assets.xcassets in Resources */,
+				49DC72B21C0C23F500C6F222 /* pic6.png in Resources */,
+				49DC72AF1C0C23F500C6F222 /* pic3.png in Resources */,
 				4949DCE81C03D7F600F2BA6F /* photo3.png in Resources */,
+				4983A3F81C065EE4005F6973 /* blue-time.png in Resources */,
+				49DC72AD1C0C23F500C6F222 /* pic1.png in Resources */,
 				DD5902F91BE7C3C900718FD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,10 +453,15 @@
 				49125DB01BF7D99C007C9145 /* StartSurveyViewController.m in Sources */,
 				4949DCED1C03D98C00F2BA6F /* ScrollViewContainer.m in Sources */,
 				49125DBA1BF93DA3007C9145 /* BaseQuestionViewController.m in Sources */,
+				49DC72BB1C0C2ACD00C6F222 /* CustomGoalsViewController.m in Sources */,
+				4983A4031C080841005F6973 /* CategoriesTableViewController.m in Sources */,
+				49DC729E1C0A6F3A00C6F222 /* ShowMultipleTableViewController.m in Sources */,
 				49B397451BFE43ED003471F3 /* SelectMultipleViewController.m in Sources */,
 				4949DCE01C03D5E500F2BA6F /* PeekPagedScrollViewController.m in Sources */,
 				49125DB31BF7E685007C9145 /* YesNoViewController.m in Sources */,
+				4983A4061C091E62005F6973 /* GoalsProgressViewController.m in Sources */,
 				DD5902F31BE7C3C900718FD3 /* AppDelegate.m in Sources */,
+				4983A4001C070366005F6973 /* GoalsTableViewController.m in Sources */,
 				DD5902F01BE7C3C900718FD3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
